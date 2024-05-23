@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Feature1 from "../../public/assets/feature-1.svg";
-import Feature2 from "../../public/assets/feature-2.svg";
-import Feature3 from "../../public/assets/feature-3.svg";
+import Feature1 from "../../public/assets/IMG_8.jpeg";
+import Feature2 from "../../public/assets/IMG_6.jpeg";
+import Feature3 from "../../public/assets/IMG_2.jpeg";
 import Check from "../../public/assets/check.svg";
-import bluebutton from "../../public/assets/blue-button.svg";
-import greenButton from "../../public/assets/green-button.svg";
-import pinkButton from "../../public/assets/pink-button.svg";
+import blueBtn from "../../public/assets/blue-button.svg";
+import greenBtn from "../../public/assets/green-button.svg";
+import pinkBtn from "../../public/assets/pink-button.svg";
 
 export function Features() {
   return (
@@ -18,10 +18,10 @@ export function Features() {
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#0085FF] lg:text-[18px] ">
-            Sales Monitoring
+            Location
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Simplify your sales monitoring
+            Serving all North Central Florida
           </h1>
           <Image
             src={Feature1}
@@ -29,9 +29,8 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+            Make your kid happy with our amazing features. We have a lot of
+            bouncy houses and slides for your kids to enjoy.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -58,7 +57,7 @@ export function Features() {
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#0085FF] lg:text-[18px]">
             Learn More{" "}
             <span>
-              <Image src={bluebutton} alt="Learn more" />
+              <Image src={blueBtn} alt="Learn more" />
             </span>
           </p>
         </div>
@@ -72,10 +71,10 @@ export function Features() {
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
           <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
-            Customer Support
+            Book us
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Get in touch with your customers
+            Forget the rest, we the best!
           </h1>
           <Image
             src={Feature2}
@@ -83,9 +82,8 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+            Yeah we are the one! Yeah your sick of all those other imitators.
+            Dont let the only real one intimidate you.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -112,7 +110,7 @@ export function Features() {
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#00A424] lg:text-[18px]">
             Learn More{" "}
             <span>
-              <Image src={greenButton} alt="Learn more" />
+              <Image src={greenBtn} alt="Learn more" />
             </span>
           </p>
         </div>
@@ -126,10 +124,10 @@ export function Features() {
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#EB2891] lg:text-[18px] ">
-            Growth Monitoring
+            Safety First
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Monitor your sites new subscribers
+            We take safety seriously!
           </h1>
           <Image
             src={Feature3}
@@ -137,9 +135,8 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+            Just incase tho you will have to sign a waiver. hehe. cus America
+            you know.
           </p>
 
           <div className="flex w-full gap-x-[24px] ">
@@ -156,7 +153,7 @@ export function Features() {
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#EB2891] lg:text-[18px]">
             Learn More{" "}
             <span>
-              <Image src={pinkButton} alt="Learn more" />
+              <Image src={pinkBtn} alt="Learn more" />
             </span>
           </p>
         </div>

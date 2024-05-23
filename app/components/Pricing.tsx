@@ -15,14 +15,14 @@ export function Pricing() {
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
           <div>
             <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
-              Free Trial
+              First Package
             </h3>
             <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
-              Perfect for testing the waters
+              Perfect for small parties
             </p>
 
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">
-              0$<span className="text-[#5F7896]">/mo</span>
+              100$<span className="text-[#5F7896]">/mo</span>
             </h2>
 
             <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896]">
@@ -47,21 +47,21 @@ export function Pricing() {
             </ul>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
-            Start Trial
+            Text us!
           </button>
         </div>
 
         <div className="w-full rounded-[8px] bg-[#4328EB] p-6 flex flex-col">
           <div>
             <h3 className="font-medium text-white text-[18px] lg:text-xl">
-              Business
+              Second Package
             </h3>
             <p className="pt-[12px] text-[#F4F8FA] lg:text-[18px]">
-              Perfect for small businesses
+              Perfect for mid parties
             </p>
 
             <h2 className="pt-4 text-2xl font-medium text-white lg:text-[32px]">
-              500$<span className="text-[#F4F8FA]">/mo</span>
+              250$<span className="text-[#F4F8FA]">/hr</span>
             </h2>
 
             <ul className="flex flex-col gap-y-2 pt-4 text-[#F4F8FA]">
@@ -98,17 +98,17 @@ export function Pricing() {
             </ul>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
-            Get Started
+            Email us!
           </button>
         </div>
 
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
           <div>
             <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
-              Enterprise
+              Third Package
             </h3>
             <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
-              Perfect for big companies
+              Perfect for big bangers
             </p>
 
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
@@ -124,7 +124,7 @@ export function Pricing() {
             </p>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
-            Contact Us
+            Contact Us!
           </button>
         </div>
       </div>
