@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="hidden md:flex justify-center absolute left-1/2 transform -translate-x-1/2">
         <div className="flex gap-x-[56px]">
           {navLinks.map((item, index) => (
-            <p className="text-[#36485C] font-medium" key={index}>
+            <p className="font-medium" key={index}>
               {item.name}
             </p>
           ))}
