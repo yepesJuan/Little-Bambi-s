@@ -10,13 +10,13 @@ import { Pricing } from "./Pricing";
 import { useTextColor } from "../context/textColor";
 
 const Main = () => {
-  const { textColor } = useTextColor();
+  const { textColor, toggleTextColor } = useTextColor();
   return (
     <div
-      className="min-h-screen bg-gradient-to-r from-green-700 to-lime-400"
+      className="min-h-screen bg-gradient-to-r from-[#FF5733] via-[#33FF57] to-[#3357FF] w-full"
       style={{ color: textColor }}
     >
-      <Navbar />
+      <Navbar toggleTextColor={toggleTextColor} />
       <Hero />
       <div className="px-[20px] lg:container lg:px-20 mx-auto">
         <Features />

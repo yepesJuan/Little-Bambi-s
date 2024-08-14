@@ -16,10 +16,14 @@ export function Hero() {
           Your neighborhood friendly soft play and party rental
         </p>
 
-        <div className="flex w-full pt-8 justify-center gap-x-6 ">
-          <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
-            Book Now
-          </button>
+        <div className="flex w-full pt-8 justify-center gap-x-6  items-center">
+          <Link href="/booking">
+            <button className="bg-[#4328EB] py-2 px-2 text-white rounded-[8px] lg:w-fit">
+              Book Now
+              {/* href="https://forms.gle/L8RLcey85AP8YPnWA" */}
+            </button>
+          </Link>
+
           <Link
             href="https://cdn.flowpage.com/images/366ca14f-d78d-41ad-a8fe-fe6c71950a0f-pdf?m=1665802049"
             target="_blank"

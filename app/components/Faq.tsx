@@ -34,9 +34,9 @@ const items = [
 
 export function Faq() {
   return (
-    <div className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6">
+    <div className="flex flex-col w-full py-[16px] lg:py-[48px] lg:flex-row lg:gap-x-6">
       <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px]">
-        <h3 className="text-[#FFFF00] text-[14px] font-medium lg:text-base">
+        <h3 className="text-[#FFFF00] text-[14px] font-bold lg:text-base">
           Frequently Asked Questions
         </h3>
         <h1 className="py-4 text-2xl font-medium lg:text-[42px] lg:leading-[58px]">
@@ -70,7 +70,7 @@ export function Faq() {
                       <Image
                         src={Plus}
                         alt="See more"
-                        className="h-10 w-10 lg:w-6 lg:h-6"
+                        className=" lg:w-6 lg:h-6"
                       />
                     </span>
                   </Accordion.Trigger>
