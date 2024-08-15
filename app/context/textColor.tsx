@@ -1,9 +1,9 @@
 "use client";
 import { ReactNode, createContext, useContext, useState } from "react";
 
-interface TextColorContextType {
+export interface TextColorContextType {
   textColor: string;
-  // toggleTextColor: () => void;
+  toggleTextColor: () => void;
 }
 
 // Define the props for the provider
@@ -11,8 +11,8 @@ interface TextColorProviderProps {
   children: ReactNode;
 }
 
-const BLACK = "#000000";
-const WHITE = "#ffffff";
+const BLACK = "#181818";
+const WHITE = "#484848";
 
 const TextColorContext = createContext<TextColorContextType | undefined>(
   undefined
@@ -23,12 +23,12 @@ export const TextColorProvider: React.FC<TextColorProviderProps> = ({
 }) => {
   const [textColor, setTextColor] = useState(BLACK); // default to black
 
-  // const toggleTextColor = () => {
-  //   setTextColor((prevColor) => (prevColor === BLACK ? WHITE : BLACK));
-  // };
+  const toggleTextColor = () => {
+    setTextColor((prevColor) => (prevColor === BLACK ? WHITE : BLACK));
+  };
 
   return (
-    <TextColorContext.Provider value={{ textColor }}>
+    <TextColorContext.Provider value={{ textColor, toggleTextColor }}>
       {children}
     </TextColorContext.Provider>
   );

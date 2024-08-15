@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Feature1 from "../../public/assets/IMG_8.jpeg";
 import Feature2 from "../../public/assets/IMG_6.jpeg";
@@ -7,10 +6,11 @@ import Check from "../../public/assets/check.svg";
 import blueBtn from "../../public/assets/blue-button.svg";
 import greenBtn from "../../public/assets/green-button.svg";
 import pinkBtn from "../../public/assets/pink-button.svg";
+import Link from "next/link";
 
 export function Features() {
   return (
-    <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
+    <div className="flex flex-col gap-y-[56px] py-[16px] lg:py-[48px] lg:gap-y-[80px]">
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
         <Image
           src={Feature1}
@@ -18,9 +18,7 @@ export function Features() {
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
-          <h3 className="font-medium text-[#013220] lg:text-[18px]">
-            Location
-          </h3>
+          <h3 className="font-bold text-[#006100] lg:text-[18px]">Location</h3>
           <h1 className="pt-[12px] text-2xl font-medium lg:text-[42px] lg:leading-[58px]">
             Serving all North Central Florida
           </h1>
@@ -72,9 +70,7 @@ export function Features() {
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
-          <h3 className="font-medium text-[#00008B] lg:text-[18px] ">
-            Pricing
-          </h3>
+          <h3 className="font-bold text-[#00008B] lg:text-[18px] ">Pricing</h3>
           <h1 className="pt-[12px] text-2xl font-medium lg:text-[42px] lg:leading-[58px]">
             Whats included in your rental?
           </h1>
@@ -125,7 +121,7 @@ export function Features() {
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
-          <h3 className="font-medium text-[#AA336A] lg:text-[18px] ">
+          <h3 className="font-bold text-[#AA336A] lg:text-[18px] ">
             Book with us now!
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium lg:text-[42px] lg:leading-[58px]">
@@ -140,13 +136,14 @@ export function Features() {
             Please fill out the details on the link below to book your soft play
             bouncer rental.
           </p>
-
+          <Link href="/booking">
           <p className="flex items-center gap-x-2 pt-[24px] font-medium lg:text-[18px]">
             Booking Form
             <span>
               <Image src={pinkBtn} alt="Learn more" />
             </span>
           </p>
+          </Link>
 
           {/* <div className="flex w-full gap-x-[24px] ">
             <div className="w-1/2 flex flex-col gap-y-3">

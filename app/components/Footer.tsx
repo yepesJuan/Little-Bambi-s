@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/assets/Logo2.svg";
 import Facebook from "../../public/assets/Facebook.svg";
-import Twitter from "../../public/assets/X.svg";
+import TikTok from "../../public/assets/tiktok.svg";
 import Instagram from "../../public/assets/instagram.svg";
 
 export function Footer() {
@@ -40,8 +40,8 @@ export function Footer() {
         >
           <Image src={Instagram} alt="Instagram" />
         </Link>
-        <Link href={"https://www.twitter.com/"} target="_blank">
-          <Image src={Twitter} alt="Twitter" />
+        <Link href={"https://www.tiktok.com/@littlebambisatplay?is_from_webapp=1&sender_device=pc"} target="_blank">
+          <Image src={TikTok} alt="Twitter" />
         </Link>
       </div>
     </div>

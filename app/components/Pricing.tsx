@@ -3,7 +3,7 @@ import Check from "../../public/assets/check.svg";
 
 export function Pricing() {
   return (
-    <div className="py-[48px] lg:py-[60px]">
+    <div className="py-[24px] lg:py-[30px]">
       <h1 className="text-center font-medium  text-2xl lg:text-[42px]">
         Flexible plans for you
       </h1>

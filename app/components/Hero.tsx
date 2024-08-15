@@ -1,5 +1,7 @@
 import Image from "next/image";
 import BlurArrow from "../../public/assets/blue-button.svg";
+import Little from "../../public/assets/Little.png"
+import Forest from "../../public/assets/forest.png"
 import Link from "next/link";
 // import { useTextColor } from "../context/textColor";
 
@@ -7,19 +9,33 @@ export function Hero() {
   // const { textColor, toggleTextColor } = useTextColor();
 
   return (
-    <div className="pt-4 lg:pt-10">
+    <div className="pt-4 lg:pt-10 pb-4 lg:pb-10">
       <div className="px-[20px] lg:px-[280px]">
-        <h1 className="text-center text-[32px] leading-[40px] font-medium lg:text-[64px] lg:leading-[72px]">
+        {/* <h1 className="text-center text-[32px] leading-[40px] font-medium lg:text-[64px] lg:leading-[72px]">
           Little Bambi&apos;s at Play!
-        </h1>
-        <p className="text-center pt-6 lg:text-[18px] lg:leading-7">
-          Your neighborhood friendly soft play and party rental
-        </p>
+        </h1> */}
+        <div className="flex justify-center">
+          <Image
+            src={Little}
+            alt="Little Bambi's at Play"
+            className="rounded-lg"
+            width={400} // Adjust as needed
+            height={400} // Adjust as needed
+          />
+        </div>
 
-        <div className="flex w-full pt-8 justify-center gap-x-6 ">
-          <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
-            Book Now
-          </button>
+        <h2 className="text-center pt-8 lg:text-[28px] lg:leading-7 text-[28px]">
+          Your neighborhood friendly soft play and party rental
+        </h2>
+
+        <div className="flex w-full pt-16 justify-center gap-x-6  items-center">
+          <Link href="/booking">
+            <button className="bg-[#4328EB] py-2 px-2 text-white rounded-[8px] lg:w-fit">
+              Book Now
+              {/* href="https://forms.gle/L8RLcey85AP8YPnWA" */}
+            </button>
+          </Link>
+
           <Link
             href="https://cdn.flowpage.com/images/366ca14f-d78d-41ad-a8fe-fe6c71950a0f-pdf?m=1665802049"
             target="_blank"
