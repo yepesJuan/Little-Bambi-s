@@ -19,7 +19,7 @@ const bookingForm = () => {
         }}
       >
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeD9-h4VhjJErOesmynjOIIVtjkJxnMAivS4AfxLSq1VQTVkw/viewform?usp=sf_link"
+          src="https://docs.google.com/forms/d/e/1FAIpQLScK_uLbyOatLiLwV8z23VcuvgppEAUxeGiQKKdh8w2CuLhd_A/viewform?embedded=true"
           width="100%"
           height="1000px"
           sandbox="allow-scripts"
