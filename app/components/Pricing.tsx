@@ -112,14 +112,14 @@ export function Pricing() {
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
           <div>
             <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
-              Classic Package
+              Elite Package
             </h3>
             <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
               16ft Obstacle course bouncers
             </p>
 
             <h2 className="pt-4 text-2xl font-medium text-[#5F7896] lg:text-[32px]">
-              $300
+              $485
               {/* <span className="text-[#5F7896]">/mo</span> */}
             </h2>
 
