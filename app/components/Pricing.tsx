@@ -115,7 +115,7 @@ export function Pricing() {
               Elite Package
             </h3>
             <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
-              16ft Obstacle course bouncers
+              Little Tikes & 16ft Obstacle course bouncers
             </p>
 
             <h2 className="pt-4 text-2xl font-medium text-[#5F7896] lg:text-[32px]">
